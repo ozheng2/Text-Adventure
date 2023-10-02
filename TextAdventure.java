@@ -53,7 +53,7 @@ public class TextAdventure
     }
   }
 
-  private void enterZone1()
+  private void enterZone1()     //CITY
   {
     // change image
     // ADD CODE HERE
@@ -74,17 +74,18 @@ public class TextAdventure
     }
   }
 
-  private void enterZone2()
+  private void enterZone2()     //FOREST
   {
     // change image
     // ADD CODE HERE
-    console.setImage("forest.jpg");
+    console.setImage("forest.png");
     // describe the area/situation to the user.
     System.out.println();
     System.out.println("You arrive at the forest. The forest is shrouded in fog. You hope to find some monsters that you can kill.");
     // Give them options for choices.
     // ADD CODE HERE
     System.out.println("A monster appears!");
+    console.setImage("forestWithGoblin.jpg");
     // Take action or go to another zone based on their choice
     // ADD CODE HERE
     String temp;
@@ -126,7 +127,7 @@ public class TextAdventure
     }
   }
 
-  private void enterZone3()
+  private void enterZone3()     //CAVE
   {
     // change image
     // ADD CODE HERE
@@ -198,7 +199,7 @@ public class TextAdventure
     }
   }
 
-  private void enterZone4()
+  private void enterZone4()     //HOUSE
   {
     // change image
     // ADD CODE HERE
